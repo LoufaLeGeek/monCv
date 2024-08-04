@@ -419,3 +419,82 @@ h2
     }
 
 }
+
+
+@media screen and (max-width : 400px) {
+    
+    h2{
+        font-size: 15px;
+    }
+    body{
+        margin: 0;
+    }
+
+    .container--cv{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contact--me{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact--me ul li a{
+        font-size: 10px;
+        max-width: 100px;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        height: 40px;
+    }
+
+    .profile h1{
+        font-size: 20px;
+        line-height: 40px;
+    }
+
+    .profile p{
+        font-size: 8px;
+    }
+
+    .formation--school{
+        width: 100%;
+        display: flex; 
+        flex-direction: column;
+    }
+
+
+    .formation--school ul li p{
+        max-width: 100px;
+        font-size: 8px;
+    }
+
+    .formation--school ul li span{
+        font-size: 10px;
+    }
+
+    .icon--design .container--icon {
+        height: 25px;
+        width: 25px;
+    }
+
+    .icon--design .container--icon i{
+        font-size: 12px;
+    }
+
+    .language--level ul li p{
+        font-size: 12px;
+    }
+
+    .language--level ul li .bar--leval{
+        width: 80%;
+    }
+
+    .losir ul li a, .activity ul li a{
+        font-size: 10px;
+    }
+}
